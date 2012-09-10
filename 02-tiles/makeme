@@ -1,0 +1,5 @@
+#! /bin/zsh
+
+PROGRAM=tiles
+
+g++ -o $PROGRAM $PROGRAM.c++ -lSDL
