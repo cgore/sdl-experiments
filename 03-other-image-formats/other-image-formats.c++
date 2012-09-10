@@ -59,7 +59,7 @@ int main(int argc, char **argv)
   if (!screen) {
     throw "Failed to set the screen video mode.";
   }
-  SDL_WM_SetCaption("Tiles", NULL);
+  SDL_WM_SetCaption("Other Image Formats", NULL);
 
   Tile aqua = Tile(screen, "aqua.jpg", 0, 0);
   Tile lawn = Tile(screen, "lawn.jpg", 1, 0);
