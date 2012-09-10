@@ -1,0 +1,5 @@
+#! /bin/zsh
+
+PROGRAM=clownfish
+
+g++ -o $PROGRAM $PROGRAM.c++ -lSDL
