@@ -1,0 +1,6 @@
+These are just some simple programs that I wrote while playing around with SDL
+in C++ for the first time, trying to figure out how it works.  The code builds
+upon itself in the examples, each example being a slightly more capable version
+of the previous one, with slightly more in-depth use of the SDL.  If you are
+trying to figure out the SDL in C++ too, then looking at these examples might
+help you on your way.
