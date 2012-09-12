@@ -141,7 +141,7 @@ int main(int argc, char **argv)
     cout << "SDL_SetVideoMode succeeded." << endl;
   }
 
-  SDL_WM_SetCaption("Color Keying", NULL);
+  SDL_WM_SetCaption("C++ SDL Movement Experiment", NULL);
 
   TileType aqua = TileType("aqua.jpg");
   TileType lawn = TileType("lawn.jpg");

@@ -67,7 +67,7 @@ int main(int argc, char **argv)
     cout << "SDL_SetVideoMode succeeded." << endl;
   }
 
-  SDL_WM_SetCaption("Events", NULL);
+  SDL_WM_SetCaption("C++ SDL Events Experiment", NULL);
 
   Tile aqua = Tile(screen, "aqua.jpg", 0, 0);
   Tile lawn = Tile(screen, "lawn.jpg", 1, 0);

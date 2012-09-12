@@ -58,7 +58,7 @@ int main(int argc, char **argv)
   if (!screen) {
     throw "Failed to set the screen video mode.";
   }
-  SDL_WM_SetCaption("Tiles", NULL);
+  SDL_WM_SetCaption("C++ STL Tiles Experiment", NULL);
 
   Tile aqua = Tile(screen, "aqua.bmp", 0, 0);
   Tile lawn = Tile(screen, "lawn.bmp", 1, 0);
