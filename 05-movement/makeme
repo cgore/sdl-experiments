@@ -1,0 +1,5 @@
+#! /bin/zsh
+
+PROGRAM=movement
+
+g++ -o $PROGRAM $PROGRAM.c++ -lSDL -lSDL_image
