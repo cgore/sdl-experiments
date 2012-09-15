@@ -1,0 +1,5 @@
+#! /bin/zsh
+
+PROGRAM=mouse
+
+g++ -ggdb -std=c++11 -o $PROGRAM $PROGRAM.c++ -lSDL -lSDL_image -lSDL_ttf
