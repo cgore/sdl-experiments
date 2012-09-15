@@ -1,0 +1,5 @@
+#! /bin/zsh
+
+PROGRAM=text
+
+g++ -o $PROGRAM $PROGRAM.c++ -lSDL -lSDL_image -lSDL_ttf
