@@ -326,8 +326,7 @@ class Game
         "amllla",
         "alwlla",
         "allWla",
-        "aaaaaa",
-        "WWWWWW"
+        "aaaaaa"
       };
       _tiles = vector<Tile>(0);
       // The coordinates go inverted to what I would think.
