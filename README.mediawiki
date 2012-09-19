@@ -28,3 +28,30 @@ help you on your way.
 == Useful Tutorials ==
 
 * Lazy Foo' Productions: http://lazyfoo.net/SDL_tutorials/index.php
+
+== Table of Contents ==
+
+01-clownfish: This is the very first program.  All it does is blit an image of
+a clownfish to the screen, wait for a little while, and then close.  This is the
+most simple program I could think of to get started with SDL in C++, the game
+equivalent of hello world.
+
+02-tiles: This program loads multiple images and draws them all to the screen.
+I am tiling them and made a basic Tile class to support this.
+
+03-other-image-formats: This program uses a PNG image and several JPEG images.  I believe that IMG_Load will support most image formats, but SDL_LoadBMP only
+supports BMP files.
+
+04-events: This program looks for a quit signal or a keypress and reports it via the console.
+
+05-movement: This program takes the event handling and makes it useful, detecting keypresses
+and then moving around a player because of them.
+
+06-text: This program adds text messages to the graphical screen instead of to the console.
+
+07-mouse: This program detects and reports mouse actions.
+
+08-map: This program generates the map from a vector<string> instead of being hard-coded.
+
+09-big-map: This program allows for the map to be larger than the view window, and allows the
+player to walk around in the whole map.
